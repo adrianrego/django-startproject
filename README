@@ -28,6 +28,11 @@ command script like this::
 
     django-startproject.py --template-dir=/your/custom/template project_name
 
+You can also clone a template directly from a repository (git, mercurial, bazaar)
+using `pip-like` syntax:
+
+    django-startproject.py --template-dir=git+git://repo/template.git project_name
+
 
 Specifying boilerplate variables
 --------------------------------
